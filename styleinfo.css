@@ -1,0 +1,197 @@
+
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-sizing: content-box;
+    
+}
+/*HEADER */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top:0%;
+    left:0%;
+    width: 100%;
+    height: 16%;
+    border-bottom: solid lightslategray;
+    box-shadow: 2px 11px 23px -8px rgba(0,0,0,1);
+  -webkit-box-shadow: 2px 11px 23px -8px rgba(0,0,0,1);
+  -moz-box-shadow: 2px 11px 23px -8px rgba(0,0,0,1);
+  background-color: aliceblue;
+  
+  }
+  
+  .cubo{
+      display: flex;
+      width: 5%;
+      padding-left: 100px;
+      padding-top: 10px;
+      margin-bottom: 10px;
+  }
+  
+  .navbar{
+      display: flex;
+      align-content: space-between;
+      justify-content: flex-end;
+      width:80%;
+      height: 70%;
+      flex-wrap: wrap;
+      padding-top: 30px;
+      padding-right: 40px;
+  
+  }
+  a:hover{
+    color: black;
+}
+a{
+    display:flex;
+    text-decoration:none;
+   padding:10px;
+   flex-wrap: wrap;
+}
+ /* CUERPO DE PAGINA*/
+
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-color: blue;
+    border-style: solid 50px;
+    margin-top: 10%;
+    background: #000000;
+    background: linear-gradient(90deg,#000000 0%, #ff006a 80%);
+    background: -webkit-linear-gradient(90deg,#000000 0%, #ff006a 80%);
+    background: -moz-linear-gradient(90deg,#000000 0%, #ff006a 80%);    
+    height: 20cm;
+}
+
+.cuadroinfo{
+    width:60%;
+    height: 60%;
+    border-style: solid 1px;
+    border-color: lightslategray;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 10px;
+    padding-top: 0px;
+    box-shadow: 2px 11px 23px -8px rgba(0,0,0,1);
+-webkit-box-shadow: 2px 11px 23px -8px rgba(0,0,0,1);
+-moz-box-shadow: 2px 11px 23px -8px rgba(0,0,0,1);
+background-color: white;
+}
+
+img{
+    width: 35%;
+    height: 75%;
+    border-radius: 20px;
+    display: flex;
+    margin-right: 10px;
+    box-shadow: 2px 11px 23px -8px rgba(0,0,0,1);
+    -webkit-box-shadow: 2px 11px 23px -8px rgba(0,0,0,1);
+    -moz-box-shadow: 2px 11px 23px -8px rgba(0,0,0,1);
+    background-color: white;
+    border: solid 5px;
+    border-color: #ff006a;
+}
+
+@media  (min-width: 525px) And (max-width:812px){
+    .cuadroinfo {
+        width: 70%;
+        height: 40%;
+        justify-content: center;
+        margin-top: 10%;
+        padding-bottom: 40px;
+    }
+}
+    
+   @media (min-width: 525px) And (max-width:812px){
+.cubo{
+    display: flex;
+    width: 15%;
+    margin-left: -60px;
+} }
+
+@media (min-width: 525px) And (max-width:812px){
+    .img{
+        width:70%;
+        height: 90%;
+    }
+}
+/*MEDIA PARA MEDIDAS DE 524 MAX
+*/
+@media  (max-width:524px){
+    .cuadroinfo {
+        width: 80%;
+        height: 80%;
+        justify-content: center;
+        margin-top: 10%;
+        padding-bottom: 40px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+    
+ 
+@media (max-width:524px){
+    img{
+  width: 60%;
+  height: 50%;
+  border-radius: 30px;
+    }}
+
+    @media (max-width:524px){
+        .hijologin{
+            margin-left:5px;
+            margin-right:5px;
+            
+        }
+    }
+
+        @media (max-width:524px){
+            .cubo{
+                width: 20%;
+                margin-left: -60px;
+            } }
+.hijologin{
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+margin-left: 10px;
+background-color: #ff006a;
+box-shadow: 2px 11px 23px -8px rgba(0,0,0,1);
+-webkit-box-shadow: 2px 11px 23px -8px rgba(0,0,0,1);
+-moz-box-shadow: 2px 11px 23px -8px rgba(0,0,0,1);
+
+}
+
+.botones{
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    
+}
+.button1{
+      color:white;
+      background-color: black;
+      border-radius: 20px;
+      width: 50%;
+      padding: 10px;
+
+}
+.button1:hover{
+    background-color: white;
+    color:#000000
+}
+.button2{
+    background-color: white;
+border-radius: 20px;   
+width:50%; 
+margin-left:10px ;
+}
+.button2:hover{
+    background-color: black;
+    color:white;
+}
